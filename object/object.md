@@ -15,12 +15,12 @@ keahliannya (method) :
 
 Tampilkan dengan console.log seperti ini, Contoh :
 ```
-Nama: Kucing
-Kaki :  4
-Spesies: Mamalia
-Warna: oren, putih, item
-Makanan : Ikan, Ayam
-Suara: Miaaaaw
+Ini adalah hewan Kucing
+Memiliki 4 kaki
+Spesiesnya Mamalia
+Kucing ini berwarna oren, putih, item
+Makanan kesukaannya Ikan dan Ayam
+Suaranya Miaaaaw
 ```
 
 ## Exercise 2
