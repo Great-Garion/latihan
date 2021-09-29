@@ -1,13 +1,13 @@
 # Array
 
-Dikerjakan **tidak boleh menggunakan build-in function**. 
+Dikerjakan **tidak boleh menggunakan build-in function** seperti `forEach, map, filter, dll`. 
 
-Jika sudah berhasil silahkan coba menggunakan build-in function
+Jika sudah berhasil, boleh menggunakan build-in function yg tertera pada note
 
 ---
 ## Reverse Array
 
-ketentuan :
+**ketentuan** :
 - membalikkan sebuah array
 - Buat fungsi yang menerima parameter data `array`
 - kembalikan dalam bentuk `array` 
@@ -22,7 +22,7 @@ ketentuan :
 
 ## Sum Array
 
-Ketentuan:
+**Ketentuan**:
 - menghitung total nilai yang terdapat pada sebuah array
 - Buat fungsi yang menerima parameter data `array`
 - kembalikan dalam bentuk `number`
@@ -36,13 +36,13 @@ Ketentuan:
 [8] -> return 8
 ```
 
-Note: bisa pakai `reducer()` 
+**Note**: bisa pakai `reducer()` 
 
 ---
 
 ## Linear Search
 
-Ketentuan:
+**Ketentuan**:
 - Mencari data pada array
 - Buat fungsi yang menerima parameter `angka` yg ingin dicari dan data `array`
 - Kembalikan dalam bentuk `boolean`
@@ -65,7 +65,7 @@ Note: bisa pakai `find()`
 
 ## Fizz Buzz Array
 
-Ketentuan:
+**Ketentuan**:
 - Mencari mengubah angka fizz buzz
 - Buat fungsi yang menerima parameter data `array`
 - Kembalikan dalam bentuk `boolean`
@@ -83,7 +83,7 @@ Note: bisa pakai `map()`
 
 ## Get 3&5 Number
 
-Ketentuan:
+**Ketentuan**:
 - Mengambil angka kelipatan 3 dan 5
 - Buat fungsi yang menerima parameter data `array`
 - Kembalikan dalam bentuk `boolean`
@@ -103,7 +103,7 @@ Note: bisa pakai `filter()`
 
 ## Palindrome
 
-Ketentuan:
+**Ketentuan**:
 - Mengecek sebuah string yang memiliki makna sama jika dibalik
 - Buat fungsi yang menerima parameter `string`
 - Kembalikan dalam bentuk `boolean`
@@ -120,7 +120,7 @@ rusak -> kasur -> return False
 
 ## Max and Min
 
-Ketentuan:
+**Ketentuan**:
 - Mendapatkan nilai max dan min pada sebuah array
 - Buat fungsi yang menerima parameter `angka` yg ingin dicari dan data `array`
 - Kembalikan dalam bentuk `object`
@@ -141,7 +141,7 @@ Note: bisa pakai `Math.max()` dan `Math.min()`
 
 ## Get 2D array
 
-Ketentuan:
+**Ketentuan**:
 - menghitung total nilai yang terdapat pada sebuah array
 - Buat fungsi yang menerima parameter data `array`
 - Tampilkan dengan console.log
@@ -164,7 +164,7 @@ Note: bisa pakai `forEach()`
 
 ## Sum 2D array
 
-Ketentuan:
+**Ketentuan**:
 - menghitung total nilai yang terdapat pada sebuah array
 - Buat fungsi yang menerima parameter data `array`
 - kembalikan dalam bentuk `number`
@@ -181,7 +181,7 @@ Ketentuan:
 
 ## Max Min 2D array
 
-Ketentuan:
+**Ketentuan**:
 - menghitung total nilai yang terdapat pada sebuah array
 - Buat fungsi yang menerima parameter data `array`
 - kembalikan dalam bentuk `array`
