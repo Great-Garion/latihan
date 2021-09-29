@@ -45,7 +45,8 @@ Jika sudah berhasil, boleh menggunakan build-in function yg tertera pada note
 **Ketentuan**:
 - Mencari data pada array
 - Buat fungsi yang menerima parameter `angka` yg ingin dicari dan data `array`
-- Kembalikan dalam bentuk `boolean`
+- Kembalikan dalam bentuk `number`
+- Kembalikan `undefined` jika tidak dikembalikan
 
 **Contoh** :
 ```
@@ -86,8 +87,8 @@ Note: bisa pakai `map()`
 **Ketentuan**:
 - Mengambil angka kelipatan 3 dan 5
 - Buat fungsi yang menerima parameter data `array`
-- Kembalikan dalam bentuk `boolean`
-- Kembalikan null jika tidak ditemukan
+- Kembalikan dalam bentuk `array`
+- Kembalikan `null` jika tidak ditemukan
 
 **Contoh** :
 ```
