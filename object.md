@@ -22,6 +22,7 @@ Kucing ini berwarna oren, putih, item
 Makanan kesukaannya Ikan dan Ayam
 Suaranya Miaaaaw
 ```
+---
 
 ## Exercise 2
 Terdapat sebuah data:
@@ -46,6 +47,7 @@ Tampilkan dengan console.log seperti ini :
 Alpha ada di kelas Dragon, dia mengikuti club Bola, Bulutangkis
 Beta ada di kelas Lizard, dia mengikuti club Membaca, Bulutangkis
 ```
+---
 
 ## Exercise 3
 Terdapat sebuah data:
