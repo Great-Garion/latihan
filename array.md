@@ -1,4 +1,9 @@
 # Array
+
+Dikerjakan **tidak boleh menggunakan build-in function**. 
+
+Jika sudah berhasil silahkan coba menggunakan build-in function
+
 ---
 ## Reverse Array
 
@@ -30,6 +35,9 @@ Ketentuan:
 [5,7] -> return 12
 [8] -> return 8
 ```
+
+Note: bisa pakai `reducer()` 
+
 ---
 
 ## Linear Search
@@ -41,9 +49,18 @@ Ketentuan:
 
 **Contoh** :
 ```
-cari 3 : [8 ,3 ,9 ,2 ,5] -> return true
-cari 4 : [2 ,6 ,7 ,2 ,1] -> return false
+cari 3 : 
+[8 ,3 ,9 ,2 ,5] -> return 3
+
+cari 4 :
+[2 ,6 ,7 ,2 ,1] -> return 4
+
+cari 9 :
+[2 ,6 ,7 ,2 ,1] -> return undefined
 ```
+
+Note: bisa pakai `find()` 
+
 ---
 
 ## Fizz Buzz Array
@@ -60,6 +77,8 @@ Ketentuan:
 [4 ,5 ,9 ,15 ,19] -> return [4 ,"buzz" ,"fizz" ,"fizz buzz" , 19]
 [2 ,4 ,7 ,8 ,1] -> return [2 ,4 ,7 ,8 ,1]
 ```
+Note: bisa pakai `map()` 
+
 ---
 
 ## Get 3&5 Number
@@ -77,6 +96,8 @@ Ketentuan:
 [4 ,5 ,9 ,15 ,19] -> return [5 ,9 ,15] 
 [2 ,4 ,7 ,8 ,1] -> return null
 ```
+Note: bisa pakai `filter()` 
+
 ---
 
 
@@ -114,6 +135,8 @@ Min : 3
 Max : 5
 Min : 5
 ```
+Note: bisa pakai `Math.max()` dan `Math.min()`
+
 ---
 
 ## Get 2D array
@@ -135,6 +158,8 @@ jumlah topi ada 3
 jumlah kaos ada 6
 jumlah jeans ada 4
 ```
+Note: bisa pakai `forEach()`
+
 ---
 
 ## Sum 2D array
