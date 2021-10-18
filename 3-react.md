@@ -16,8 +16,8 @@ Latihan di bawah ini saling terhubung
 ## v2.0 - Props
 
 - Buat komponen `HobbyItem` yang dapat menerima props `hobi`
-- Panggil `HobbyItem` ke map pada komponen `Hobies`
+- Panggil `HobbyItem` ke dalam map pada komponen `Hobies`
 - Kirim props `hobi` ke dalam `HobbyItem`
 - Buat komponen `SkillItem` yang dapat menerima props `skill`
-- Panggil `SkillItem` ke map pada komponen `Skills`
+- Panggil `SkillItem` ke dalam map pada komponen `Skills`
 - Kirim props `skill` ke dalam `SkillItem`
