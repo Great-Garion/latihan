@@ -5,7 +5,6 @@ Latihan di bawah ini saling terhubung
 ---
 ## v1.0 - Component
 
-**ketentuan** :
 - Buat sebuah personal web
 - Buat beberapa komponen di dalam folder `components`
   - `Profile`, terdapat foto profile, nama, bio, dll
@@ -16,7 +15,9 @@ Latihan di bawah ini saling terhubung
 ---
 ## v2.0 - Props
 
-**ketentuan** :
-- Buat komponen `HobbyItem` yang dapat menerima props `hobi`, komponen ini berisi satuan hobi
-- Panggil `HobiItem` ke dalam komponen `Hobies`
-- Kirim props `hobi` ke dalam `HobiItem`
+- Buat komponen `HobbyItem` yang dapat menerima props `hobi`
+- Panggil `HobbyItem` ke map pada komponen `Hobies`
+- Kirim props `hobi` ke dalam `HobbyItem`
+- Buat komponen `SkillItem` yang dapat menerima props `skill`
+- Panggil `SkillItem` ke map pada komponen `Skills`
+- Kirim props `skill` ke dalam `SkillItem`
