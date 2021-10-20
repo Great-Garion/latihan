@@ -59,5 +59,5 @@ Buat data array untuk Hobbies dan Skills
 ---
 ## v5.0 - onClick
 
-- Di dalam `Hobbies.js`, beri `onClick` pada `<HobbyItem>` yg akan menjalankan dan munculkan di console data hobby yg sedang di klik
-- Di dalam `Skills.js`, beri `onClick` pada `SkillItem` dan munculkan di console data hobby yg sedang di klik
+- Di dalam `HobbyItem.js`, beri `onClick` pada elemen yang memiliki class `hobby-item`. Ketika di klik, tampilkan `alert()` yg berisi nama hobby
+- Di dalam `HobbyItem.js`, beri `onClick` pada elemen yang memiliki class `skill-item`. Ketika di klik, tampilkan `alert()` yg berisi nama skill
