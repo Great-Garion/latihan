@@ -7,7 +7,7 @@ Latihan di bawah ini saling terhubung
 
 Ambil html dari template
 
-- Buat project react
+- Buat project react baru
 - gunakan template html yg sudah disediakan pada repo ini, lalu paste ke dalam `App.js` project react mu
 - Ubah semua atribut `class` menjadi `className`
 - Jalankan aplikasi react, dan pastikan sudah berjalan
