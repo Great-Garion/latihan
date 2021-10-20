@@ -9,6 +9,7 @@ Ambil html dari template
 
 - Buat project react
 - gunakan template html yg sudah disediakan pada repo ini, lalu paste ke dalam `App.js` project react mu
+- Ubah semua atribut `class` menjadi `className`
 - Jalankan aplikasi react, dan pastikan sudah berjalan
 
 ---
@@ -36,8 +37,8 @@ Buat data array untuk Hobbies dan Skills
       <!-- dan seterusnya -->
     ]
   ```
-  - Hapus semua element yang memiliki class `hobby-item`, dan sisakan 1 element saja.
-  - `map` data `hobbies` lalu tampilkan gambar dan nama hobby pada sebuah element yg memiliki class `hobby-item`
+  - Hapus semua element yang memiliki className `hobby-item`, dan sisakan 1 element saja.
+  - `map` data `hobbies` lalu tampilkan gambar dan nama hobby pada sebuah element yg memiliki className `hobby-item`
 - Di dalam `Skills.js`, buat data array of object yang bernama `skills` berisikan nama hobi dan gambarnya, contoh
   ```js
     let skills = [
@@ -45,8 +46,8 @@ Buat data array untuk Hobbies dan Skills
       <!-- dan seterusnya -->
     ]
   ```
-  - Hapus semua element yang memiliki class `skill-item`, dan sisakan 1 element saja.
-  - `map` data `skills` lalu tampilkan gambar dan nama skill pada sebuah element yg memiliki class `skill-item`
+  - Hapus semua element yang memiliki className `skill-item`, dan sisakan 1 element saja.
+  - `map` data `skills` lalu tampilkan gambar dan nama skill pada sebuah element yg memiliki className `skill-item`
 
 ---
 ## v4.0 - Props
@@ -59,5 +60,5 @@ Buat data array untuk Hobbies dan Skills
 ---
 ## v5.0 - onClick
 
-- Di dalam `HobbyItem.js`, beri `onClick` pada elemen yang memiliki class `hobby-item`. Ketika di klik, tampilkan `alert()` yg berisi nama hobby
-- Di dalam `HobbyItem.js`, beri `onClick` pada elemen yang memiliki class `skill-item`. Ketika di klik, tampilkan `alert()` yg berisi nama skill
+- Di dalam `HobbyItem.js`, beri `onClick` pada elemen yang memiliki className `hobby-item`. Ketika di klik, tampilkan `alert()` yg berisi nama hobby
+- Di dalam `HobbyItem.js`, beri `onClick` pada elemen yang memiliki className `skill-item`. Ketika di klik, tampilkan `alert()` yg berisi nama skill
