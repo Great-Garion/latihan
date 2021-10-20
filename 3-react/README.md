@@ -8,7 +8,7 @@ Latihan di bawah ini saling terhubung
 Ambil html dari template
 
 - Buat project react
-- copy isi template, lalu paste di `App.js`
+- gunakan template html yg sudah disediakan pada repo ini, lalu paste ke dalam `App.js` project react mu
 - Jalankan aplikasi react, dan pastikan sudah berjalan
 
 ---
