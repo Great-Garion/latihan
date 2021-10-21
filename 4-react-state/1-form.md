@@ -34,9 +34,9 @@ kita akan merapikan supaya lebih efisien
   - Hapus func `handleChangeUsername` dan `handleChangePassword`
   - Buat state baru bernama `user` (_objek_) yg memiliki properti **username** dan **password**
   - Pada `text input` username dan password, beri atribut:
-    - `onChange` yg menjalankan function `handleChangeUser`
-    - `name` bernilai "username"/"password"
-    - `value` bernilai username/password dari state `user`
+    - `onChange`, menjalankan function `handleChangeUser`
+    - `name`, sesuai dengan nama properti pada state `user`
+    - `value`, ambil properti dari state `user`
   - Pada `handleChangeUser`, ubah state `user` dengan memberikan object baru
     ```js
     {
