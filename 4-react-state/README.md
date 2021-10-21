@@ -4,10 +4,13 @@
 ## v1.0 - Membuat Todo
 
 - Buat komponen yg bernama `Todo`
-- Komponen `Todo` memiliki sebuah `state` array yg bernama `todos` berisikan "belajar react" dan "belajar state"
-- Komponen `Todo` memiliki `text input` dan sebuah `button`
+- Komponen `Todo` memiliki `state`:
+  - `todos` (array) : berisikan "belajar react" dan "belajar state"
+  - `inputTodo` (string) : berisikan string kosong
+- Komponen `Todo` memiliki `text input` dan sebuah `button` add
 - Tampilkan `todos` menggunakan map
-- Tambahkan data todo baru yg terdapat pada `text input` dengan menekan `button`
+- Beri klik pada button add yg akan menjalankan function `addTodo`
+- `addTodo` akan menambahkan todo baru pada `text input` ke dalam `todos`
 
 ---
 ## v2.0 - Menghapus Todo
