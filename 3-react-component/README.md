@@ -54,11 +54,14 @@ Buat data array untuk Hobbies dan Skills
 
 - Buat komponen baru `HobbyItem.js` yg dapat menerima props `hobby`
 - Pindahkan element yang memiliki id `hobby-item` ke dalam komponen `HobbyItem.js`
-- Panggil `<HobbItem />` di dalam map, lalu kirimkan props hobby kedalamnya
+- Panggil `<HobbItem />` di dalam map, lalu kirimkan props `hobby` kedalamnya
+- Buat komponen baru `SkillItem.js` yg dapat menerima props `skill`
+- Pindahkan element yang memiliki id `skill-item` ke dalam komponen `SkillItem.js`
+- Panggil `<SkillItem />` di dalam map, lalu kirimkan props `skill` kedalamnya
 
 
 ---
 ## v5.0 - onClick
 
 - Di dalam `HobbyItem.js`, beri `onClick` pada elemen yang memiliki className `hobby-item`. Ketika di klik, tampilkan `alert()` yg berisi nama hobby
-- Di dalam `HobbyItem.js`, beri `onClick` pada elemen yang memiliki className `skill-item`. Ketika di klik, tampilkan `alert()` yg berisi nama skill
+- Di dalam `SkillItem.js`, beri `onClick` pada elemen yang memiliki className `skill-item`. Ketika di klik, tampilkan `alert()` yg berisi nama skill
