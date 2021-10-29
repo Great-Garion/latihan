@@ -13,9 +13,11 @@
 ---
 ## 2.0 - Mencari Data
 
-- Di dalam komponen `CatList`, tambahkan input text untuk melakukan pencarian. Setiap hasil ketikan akan di simpan pada state `input`
-- Buat `useEffect()` baru yg berjalan ketika state `input` terjadi perubahan
-- Di dalam `useEffect()`, lakukan filter pada state `catsTemp` yg sesuai dengan input.
+- Di dalam komponen `CatList`, tambahkan input text untuk melakukan pencarian data kucing. 
+- Hasil ketikan dari input text akan disimpan pada state `input` 
+- Buat `useEffect()` baru, di dalamnya lakukan filter pada state `catsTemp` lalu lakukan pengecekan apakah data yg dicek mengandung kata yg berasal dari state `input`.
 - Hasil dari filter akan disimpan pada state `cats`
+- tambahkan `[input]` sebelum penutup kurung `useEffect()` yg baru saja dibuat
+- Amati hasilnya dan ceritakan kembali proses yg sudah dibuat sehingga dapat melakukan data pencarian pada data kucing (buat pada file `penjelasan.md`) 
 
 
