@@ -6,7 +6,7 @@
 - Buatlah rute:
   - `/` : Menampilkan komponen `Home` (di dalamnya terdapat komponen `Cats`)
   - `/login` : Menampilkan komponen `Login`
-  - `/cat/:nama-kucing` : Menampilkan komponen `CatDetail`
+  - `/cat/:namaKucing` : Menampilkan komponen `CatDetail`
   - Selain rute diatas, tampilkan komponen `NotFound404`
 
 ---
