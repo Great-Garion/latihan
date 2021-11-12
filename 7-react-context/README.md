@@ -13,11 +13,12 @@
 
 ## 2.0 - Cats
 
+- Buat `CatContext` yg memiliki state `cats`
 - Pada komponen `Cats`, ambil data pada API ini
   ```
   https://api.thecatapi.com/v1/breeds
   ```
-- Simpan hasil data yg sudah di dapatkan ke dalam property `cats` pada `CatContext`, lalu tampilkan datanya
+- Simpan hasil data yg sudah di dapatkan ke dalam `cats` milik `CatContext`, lalu tampilkan datanya
 - Setiap data kucing dapat di klik. Ketika di klik, ambil nama kucing lalu ubah url menggunakan `history` menjadi `/cat/{namaKucing}`
 
 ---
@@ -33,15 +34,20 @@
 
 ---
 
-## 3.0 - Login
+## 4.0 - Login
 
+- Buat `UserContext` yg memiliki state `isLogin`
 - Buat data user pada `mockapi.io`
-- Jika data yg di input sesuai dengan data pada `mockapi.io`, maka buat data `isLogin` dgn nilai `true` ke dalam localStorage
-- Buat `UserContext`, di dalamnya tambahkan useEffect untuk mengambil data isLogin dari localStorage.
+- Jika data yg di input sesuai dengan data pada `mockapi.io`
+  - buat data `isLogin` dgn nilai `true` ke dalam localStorage
+  - ubah `isLogin` milik `UserContext` menjadi `true`
+  - pindah ke rute `/`
 - Pada `App.js`, ambil `isLogin` dari `UserContext`.
-- Jika `isLogin`
-  - `false`, alihkan rute `/` ke rute `/login`
-  - `true`, buat navigasi logout
+- Gunakan `isLogin` untuk:
+  - munculkan navigasi logout jika isLogin bernilai true
+  - Mengalihkan rute `/` ke rute `/login` jika `isLogin` `false`
+  - Mengalihkan rute `/login` ke rute `/` jika `isLogin` `true`
+- pada `UserContext`, di dalamnya tambahkan `useEffect` untuk mengambil data `isLogin` dari localStorage lalu masukkan isinya ke dalam state `isLogin`.
 
 ---
 
