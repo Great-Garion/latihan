@@ -39,15 +39,16 @@
 - Buat `UserContext` yg memiliki state `isLogin`
 - Buat data user pada `mockapi.io`
 - Jika data yg di input sesuai dengan data pada `mockapi.io`
-  - buat data `isLogin` dgn nilai `true` ke dalam localStorage
+  - buat data `isLogin` dgn nilai `true` ke dalam `localStorage`
   - ubah `isLogin` milik `UserContext` menjadi `true`
   - pindah ke rute `/`
 - Pada `App.js`, ambil `isLogin` dari `UserContext`.
 - Gunakan `isLogin` untuk:
-  - munculkan navigasi logout jika isLogin bernilai true
+  - Munculkan navigasi logout jika `isLogin` bernilai `true`. 
   - Mengalihkan rute `/` ke rute `/login` jika `isLogin` `false`
   - Mengalihkan rute `/login` ke rute `/` jika `isLogin` `true`
-- pada `UserContext`, di dalamnya tambahkan `useEffect` untuk mengambil data `isLogin` dari localStorage lalu masukkan isinya ke dalam state `isLogin`.
+- Navigasi logout bertugas mengubah `isLogin` pada `UserContext` dan `localStorage` menjadi `false`
+- pada `UserContext`, di dalamnya tambahkan `useEffect` untuk mengambil data `isLogin` dari `localStorage` lalu masukkan isinya ke dalam state `isLogin`.
 
 ---
 
