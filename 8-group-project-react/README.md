@@ -19,7 +19,9 @@ Project ini **harus** dikerjakan menggunakan React.js
   - Detail Movie & Tv Serries
 - Jika belum login, hanya boleh ke halaman Register dan Login saja
 - Ketika salah satu movie di klik, maka pindah ke halaman Detail Movie
-- Diberi styling menggunakan bootstrap & harus responsiv
+- Diberi styling & harus responsiv
+- Menggunakan react-router-dom sebagai routing
+- Menggunakan context sebagai state management
 
 **Note:** 
 Kamu bebas untuk menambahkan Halaman lain atau Fitur lainnya sekreatif mungkin
